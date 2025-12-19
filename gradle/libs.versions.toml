@@ -1,0 +1,103 @@
+[versions]
+
+liquibase = "4.32.0"
+lombok = "1.18.42"
+mapstruct = "1.6.3"
+postgresql = "42.7.6"
+testcontainers = "1.20.1"
+h2 = "2.3.232"
+junitLauncher = "1.13.3"
+junit = "5.13.3"
+kotlinLogging = "3.0.5"
+jjwt = "0.12.6"
+nimbusOAuth2 = "11.26"
+nimbus = "10.3"
+springOpenApi = "2.8.9"
+lombokMapstructBinding = "0.2.0"
+jakartaAnnotation = "3.0.0"
+mongoDb = "5.5.1"
+elasticsearch = "9.0.4"
+jooq = "3.20.5"
+
+[libraries]
+
+spring-core = { group = "org.springframework", name = "spring-core" }
+spring-context = { group = "org.springframework", name = "spring-context" }
+spring-beans = { group = "org.springframework", name = "spring-beans" }
+spring-web = { group = "org.springframework", name = "spring-web" }
+spring-web-mvc = { group = "org.springframework", name = "spring-webmvc" }
+spring-security-web = { group = "org.springframework.security", name = "spring-security-web" }
+spring-security-core = { group = "org.springframework.security", name = "spring-security-core" }
+spring-jdbc = { group = "org.springframework", name = "spring-jdbc" }
+spring-tx = { group = "org.springframework", name = "spring-tx" }
+spring-boot-autoconfigure = { group = "org.springframework.boot", name = "spring-boot-autoconfigure" }
+spring-boot-kafka = { group = "org.springframework.kafka", name = "spring-kafka" }
+
+spring-boot-jpa = { group = "org.springframework.boot", name = "spring-boot-starter-data-jpa" }
+spring-boot-jdbc = { group = "org.springframework.boot", name = "spring-boot-starter-jdbc" }
+spring-boot-jooq = { group = "org.springframework.boot", name = "spring-boot-starter-jooq" }
+spring-boot-data-jdbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-jdbc" }
+spring-boot-mongodb = { group = "org.springframework.boot", name = "spring-boot-starter-data-mongodb" }
+spring-boot-redis = { group = "org.springframework.boot", name = "spring-boot-starter-data-redis" }
+
+spring-boot-web = { group = "org.springframework.boot", name = "spring-boot-starter-web" }
+spring-boot-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux" }
+spring-boot-thymeleaf = { group = "org.springframework.boot", name = "spring-boot-starter-thymeleaf" }
+
+spring-boot-integration-core = { group = "org.springframework.integration", name = "spring-integration-core" }
+spring-boot-integration-kafka = { group = "org.springframework.integration", name = "spring-integration-kafka" }
+spring-boot-integration-jms = { group = "org.springframework.integration", name = "spring-integration-jms" }
+spring-boot-integration-jdbc = { group = "org.springframework.integration", name = "spring-integration-jdbc" }
+spring-boot-integration-webflux = { group = "org.springframework.integration", name = "spring-integration-webflux" }
+spring-boot-integration-http = { group = "org.springframework.integration", name = "spring-integration-http" }
+
+spring-boot-aop = { group = "org.springframework.boot", name = "spring-boot-starter-aop" }
+spring-boot-actuator = { group = "org.springframework.boot", name = "spring-boot-starter-actuator" }
+spring-boot-validation = { group = "org.springframework.boot", name = "spring-boot-starter-validation" }
+spring-boot-configuration-processor = { group = "org.springframework.boot", name = "spring-boot-configuration-processor" }
+
+spring-boot-security = { group = "org.springframework.boot", name = "spring-boot-starter-security" }
+spring-boot-oauth2-server = { group = "org.springframework.boot", name = "spring-boot-starter-oauth2-authorization-server" }
+spring-boot-oauth2-resource-server = { group = "org.springframework.boot", name = "spring-boot-starter-oauth2-resource-server" }
+spring-boot-oauth2-jose = { group = "org.springframework.boot", name = "spring-security-oauth2-jose" }
+
+spring-cloud-config = { group = "org.springframework.cloud", name = "spring-cloud-starter-config" }
+spring-cloud-netflix-client = { group = "org.springframework.cloud", name = "spring-cloud-starter-netflix-eureka-client" }
+spring-cloud-openfeign = { group = "org.springframework.cloud", name = "spring-cloud-starter-openfeign" }
+spring-cloud-gateway = { group = "org.springframework.cloud", name = "spring-cloud-starter-gateway" }
+spring-cloud-commons = { group = "org.springframework.cloud", name = "spring-cloud-commons" }
+spring-cloud-netflix-server = { group = "org.springframework.cloud", name = "spring-cloud-starter-netflix-eureka-server" }
+
+spring-openapi-ui = { group = "org.springdoc", name = "springdoc-openapi-starter-webmvc-ui", version.ref = "springOpenApi" }
+spring-openapi-common = { group = "org.springdoc", name = "springdoc-openapi-starter-common", version.ref = "springOpenApi" }
+spring-openapi-webflux-ui = { group = "org.springdoc", name = "springdoc-openapi-starter-webflux-ui", version.ref = "springOpenApi" }
+
+postgres = { group = "org.postgresql", name = "postgresql", version.ref = "postgresql" }
+liquibase = { group = "org.liquibase", name = "liquibase-core", version.ref = "liquibase" }
+mongodb = { group = "org.mongodb", name = "mongodb-driver-sync", version.ref = "mongoDb" }
+elasticsearch = { group = "co.elastic.clients", name = "elasticsearch-java", version.ref = "elasticsearch" }
+jooq = { group = "org.jooq", name = "jooq", version.ref = "jooq" }
+
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+mapstruct = { group = "org.mapstruct", name = "mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { group = "org.mapstruct", name = "mapstruct-processor", version.ref = "mapstruct" }
+lombok-mapstruct-binding = { group = "org.projectlombok", name = "lombok-mapstruct-binding", version.ref = "lombokMapstructBinding" }
+jakarta-annotation-api = { group = "jakarta.annotation", name = "jakarta.annotation-api", version.ref = "jakartaAnnotation" }
+kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging-jvm", version.ref = "kotlinLogging" }
+jooq-codeGen = { group = "org.jooq", name = "jooq-codegen", version.ref = "jooq" }
+jooq-meta-extentions = { group = "org.jooq", name = "jooq-meta-extensions", version.ref = "jooq" }
+
+jjwt-api = { group = "io.jsonwebtoken", name = "jjwt-api", version.ref = "jjwt" }
+jjwt-impl = { group = "io.jsonwebtoken", name = "jjwt-impl", version.ref = "jjwt" }
+jjwt-jackson = { group = "io.jsonwebtoken", name = "jjwt-jackson", version.ref = "jjwt" }
+nimbus-oauth2-sdk = { group = "com.nimbusds", name = "oauth2-oidc-sdk", version.ref = "nimbusOAuth2" }
+nimbus-jwt = { group = "com.nimbusds", name = "nimbus-jose-jwt", version.ref = "nimbus" }
+
+spring-boot-test = { group = "org.springframework.boot", name = "spring-boot-starter-test" }
+spring-security-test = { group = "org.springframework.security", name = "spring-security-test" }
+testcontainers = { group = "org.testcontainers", name = "testcontainers", version.ref = "testcontainers" }
+testcontainers-junit = { group = "org.testcontainers", name = "junit-jupiter", version.ref = "testcontainers" }
+testcontainers-postgres = { group = "org.testcontainers", name = "postgresql", version.ref = "testcontainers" }
+h2 = { group = "com.h2database", name = "h2", version.ref = "h2" }
+junit-launcher = { group = "org.junit.platform", name = "junit-platform-launcher", version.ref = "junitLauncher" }
+junit = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junit" }
