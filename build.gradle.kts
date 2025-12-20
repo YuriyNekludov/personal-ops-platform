@@ -18,7 +18,7 @@ dependencies {
         api(libs.spring.jdbc)
         api(libs.spring.tx)
         api(libs.spring.boot.autoconfigure)
-        api(libs.spring.boot.kafka)
+        api(libs.spring.kafka)
 
         api(libs.spring.boot.jpa)
         api(libs.spring.boot.jdbc)
@@ -26,6 +26,7 @@ dependencies {
         api(libs.spring.boot.mongodb)
         api(libs.spring.boot.jooq)
         api(libs.spring.boot.redis)
+        api(libs.spring.boot.kafka)
 
         api(libs.spring.boot.web)
         api(libs.spring.boot.webflux)

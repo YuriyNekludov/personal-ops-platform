@@ -30,9 +30,11 @@ spring-security-web = { group = "org.springframework.security", name = "spring-s
 spring-security-core = { group = "org.springframework.security", name = "spring-security-core" }
 spring-jdbc = { group = "org.springframework", name = "spring-jdbc" }
 spring-tx = { group = "org.springframework", name = "spring-tx" }
-spring-boot-autoconfigure = { group = "org.springframework.boot", name = "spring-boot-autoconfigure" }
-spring-boot-kafka = { group = "org.springframework.kafka", name = "spring-kafka" }
+spring-kafka = { group = "org.springframework.kafka", name = "spring-kafka" }
 
+spring-boot-autoconfigure = { group = "org.springframework.boot", name = "spring-boot-autoconfigure" }
+
+spring-boot-kafka = { group = "org.springframework.boot", name = "spring-boot-starter-kafka" }
 spring-boot-jpa = { group = "org.springframework.boot", name = "spring-boot-starter-data-jpa" }
 spring-boot-jdbc = { group = "org.springframework.boot", name = "spring-boot-starter-jdbc" }
 spring-boot-jooq = { group = "org.springframework.boot", name = "spring-boot-starter-jooq" }
