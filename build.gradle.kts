@@ -74,6 +74,7 @@ dependencies {
         api(libs.jakarta.annotation.api)
         api(libs.jooq.codeGen)
         api(libs.jooq.meta.extentions)
+        api(libs.jetbrains.annotations)
 
         api(libs.jjwt.api)
         api(libs.jjwt.impl)

@@ -18,6 +18,7 @@ jakartaAnnotation = "3.0.0"
 mongoDb = "5.5.1"
 elasticsearch = "9.0.4"
 jooq = "3.20.5"
+jetbrainsAnnotations = "26.0.2"
 
 [libraries]
 
@@ -88,6 +89,7 @@ jakarta-annotation-api = { group = "jakarta.annotation", name = "jakarta.annotat
 kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging-jvm", version.ref = "kotlinLogging" }
 jooq-codeGen = { group = "org.jooq", name = "jooq-codegen", version.ref = "jooq" }
 jooq-meta-extentions = { group = "org.jooq", name = "jooq-meta-extensions", version.ref = "jooq" }
+jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "jetbrainsAnnotations" }
 
 jjwt-api = { group = "io.jsonwebtoken", name = "jjwt-api", version.ref = "jjwt" }
 jjwt-impl = { group = "io.jsonwebtoken", name = "jjwt-impl", version.ref = "jjwt" }
