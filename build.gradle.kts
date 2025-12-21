@@ -76,6 +76,8 @@ dependencies {
         api(libs.jooq.meta.extentions)
         api(libs.jetbrains.annotations)
 
+        api(libs.jackson.core)
+        api(libs.jackson.annotations)
         api(libs.jackson.databind)
         api(libs.jackson.datatype)
         api(libs.jackson.module)

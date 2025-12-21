@@ -91,6 +91,8 @@ jooq-codeGen = { group = "org.jooq", name = "jooq-codegen", version.ref = "jooq"
 jooq-meta-extentions = { group = "org.jooq", name = "jooq-meta-extensions", version.ref = "jooq" }
 jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "jetbrainsAnnotations" }
 
+jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core" }
+jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations" }
 jackson-databind = { group = "com.fasterxml.jackson.core", name = "jackson-databind" }
 jackson-datatype = { group = "com.fasterxml.jackson.datatype", name = "jackson-datatype-jsr310" }
 jackson-module = { group = "com.fasterxml.jackson.module", name = "jackson-module-parameter-names" }
