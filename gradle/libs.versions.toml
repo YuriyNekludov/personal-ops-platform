@@ -90,6 +90,7 @@ kotlin-logging = { group = "io.github.microutils", name = "kotlin-logging-jvm", 
 jooq-codeGen = { group = "org.jooq", name = "jooq-codegen", version.ref = "jooq" }
 jooq-meta-extentions = { group = "org.jooq", name = "jooq-meta-extensions", version.ref = "jooq" }
 jetbrains-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "jetbrainsAnnotations" }
+slf4j-api = { group = "org.slf4j", name = "slf4j-api" }
 
 jackson-core = { group = "com.fasterxml.jackson.core", name = "jackson-core" }
 jackson-annotations = { group = "com.fasterxml.jackson.core", name = "jackson-annotations" }

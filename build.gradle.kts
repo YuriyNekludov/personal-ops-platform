@@ -75,6 +75,7 @@ dependencies {
         api(libs.jooq.codeGen)
         api(libs.jooq.meta.extentions)
         api(libs.jetbrains.annotations)
+        api(libs.slf4j.api)
 
         api(libs.jackson.core)
         api(libs.jackson.annotations)
