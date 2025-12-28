@@ -1,5 +1,5 @@
 plugins {
-    id("fivesix.personalops.gradle.version-catalog") version "0.1.0"
+    id("fivesix.personalops.gradle.version-catalog") version "0.1.4"
 }
 
 javaPlatform {
@@ -8,6 +8,10 @@ javaPlatform {
 
 dependencies {
     constraints {
+        api(libs.ops.idempotencer.api)
+        api(libs.ops.idempotencer.jdbc)
+        api(libs.ops.idempotencer.jdbc.autoconfigure)
+
         api(libs.spring.core)
         api(libs.spring.context)
         api(libs.spring.beans)

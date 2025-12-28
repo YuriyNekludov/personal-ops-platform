@@ -19,8 +19,13 @@ mongoDb = "5.5.1"
 elasticsearch = "9.0.4"
 jooq = "3.20.5"
 jetbrainsAnnotations = "26.0.2"
+idempotencer = "0.0.5"
 
 [libraries]
+
+ops-idempotencer-api = { group = "fivesix.personalops", name = "ops-idempotencer-api", version.ref = "idempotencer" }
+ops-idempotencer-jdbc = { group = "fivesix.personalops", name = "ops-idempotencer-jdbc", version.ref = "idempotencer" }
+ops-idempotencer-jdbc-autoconfigure = { group = "fivesix.personalops", name = "ops-jdbc-idempotencer-autoconfigure", version.ref = "idempotencer" }
 
 spring-core = { group = "org.springframework", name = "spring-core" }
 spring-context = { group = "org.springframework", name = "spring-context" }
